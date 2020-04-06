@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 16.4.0.56107
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Microsoft.WindowsAzure.Storage.v142", "Microsoft.WindowsAzure.Storage\Microsoft.WindowsAzure.Storage.v142.vcxproj", "{25D342C3-6CDA-44DD-A16A-32A19B692785}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BlobSample", "sample\BlobSample\BlobSample.vcxproj", "{243E8ED0-58CF-4322-BB7D-D52E70352608}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25D342C3-6CDA-44DD-A16A-32A19B692785}.Debug|ARM.ActiveCfg = Debug|ARM
+		{25D342C3-6CDA-44DD-A16A-32A19B692785}.Debug|ARM.Build.0 = Debug|ARM
+		{25D342C3-6CDA-44DD-A16A-32A19B692785}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25D342C3-6CDA-44DD-A16A-32A19B692785}.Debug|Win32.Build.0 = Debug|Win32
+		{25D342C3-6CDA-44DD-A16A-32A19B692785}.Debug|x64.ActiveCfg = Debug|x64
+		{25D342C3-6CDA-44DD-A16A-32A19B692785}.Debug|x64.Build.0 = Debug|x64
+		{25D342C3-6CDA-44DD-A16A-32A19B692785}.Release|ARM.ActiveCfg = Release|Win32
+		{25D342C3-6CDA-44DD-A16A-32A19B692785}.Release|Win32.ActiveCfg = Release|Win32
+		{25D342C3-6CDA-44DD-A16A-32A19B692785}.Release|Win32.Build.0 = Release|Win32
+		{25D342C3-6CDA-44DD-A16A-32A19B692785}.Release|x64.ActiveCfg = Release|x64
+		{25D342C3-6CDA-44DD-A16A-32A19B692785}.Release|x64.Build.0 = Release|x64
+		{243E8ED0-58CF-4322-BB7D-D52E70352608}.Debug|ARM.ActiveCfg = Debug|ARM
+		{243E8ED0-58CF-4322-BB7D-D52E70352608}.Debug|ARM.Build.0 = Debug|ARM
+		{243E8ED0-58CF-4322-BB7D-D52E70352608}.Debug|Win32.ActiveCfg = Debug|Win32
+		{243E8ED0-58CF-4322-BB7D-D52E70352608}.Debug|Win32.Build.0 = Debug|Win32
+		{243E8ED0-58CF-4322-BB7D-D52E70352608}.Debug|x64.ActiveCfg = Debug|x64
+		{243E8ED0-58CF-4322-BB7D-D52E70352608}.Debug|x64.Build.0 = Debug|x64
+		{243E8ED0-58CF-4322-BB7D-D52E70352608}.Release|ARM.ActiveCfg = Release|ARM
+		{243E8ED0-58CF-4322-BB7D-D52E70352608}.Release|ARM.Build.0 = Release|ARM
+		{243E8ED0-58CF-4322-BB7D-D52E70352608}.Release|Win32.ActiveCfg = Release|Win32
+		{243E8ED0-58CF-4322-BB7D-D52E70352608}.Release|Win32.Build.0 = Release|Win32
+		{243E8ED0-58CF-4322-BB7D-D52E70352608}.Release|x64.ActiveCfg = Release|x64
+		{243E8ED0-58CF-4322-BB7D-D52E70352608}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5E73CA29-B0F5-4B0E-9A96-1C72C04CD1BA}
+	EndGlobalSection
+EndGlobal
